@@ -10,7 +10,7 @@ function! s:FTcccs()
   endif
 
   let i = 1
-  while i < 50
+  while i < 10
     let line = getline(i)
     let i = i + 1
     if line =~ '^element'
