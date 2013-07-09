@@ -28,6 +28,7 @@ If you are running a Vim older than 7.3.430 and filetype detection fails
 (results in a "conf" detection), you may need to apply the patch detailed in [Issue 52][4].
 Above issue is observed in newer Vim versions, too. This fork is created to mitigate this problem.
 
+[1]: https://github.com/bturnbull/vim-cccs
 [2]: http://www.spocom.com/users/gjohnson/vim/
 [3]: https://github.com/tpope/vim-pathogen
 [4]: http://code.google.com/p/vim/issues/detail?id=52
