@@ -13,7 +13,7 @@ function! s:FTcccs()
   while i < 20
     let line = getline(i)
     let i = i + 1
-    if line =~ '^element'
+    if line =~ '\(^element\|^include.*\.cs\)'
       setfiletype cccs
       break
     endif
