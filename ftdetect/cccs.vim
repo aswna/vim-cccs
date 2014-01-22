@@ -10,7 +10,7 @@ function! s:FTcccs()
   endif
 
   let i = 1
-  while i < 20
+  while i < 25
     let line = getline(i)
     let i = i + 1
     if line =~ '\(^element\|^include.*\.cs\)'
